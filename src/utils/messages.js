@@ -4,7 +4,7 @@ const generateMessage = (username, text) => {
         text,
         createdAt : new Date().getTime()
     };
-}
+};
 
 const generateLocationMessage = (username, url) => {
     return {
@@ -12,7 +12,7 @@ const generateLocationMessage = (username, url) => {
         url, 
         createdAt : new Date().getTime()
     };
-}
+};
 
 module.exports = {
     generateMessage,
